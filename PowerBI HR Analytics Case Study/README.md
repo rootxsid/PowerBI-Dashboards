@@ -29,7 +29,7 @@ For this case study, we will use the Kimball modelling approach as we model our 
 
 The Fact table stores the information about employee yearly reviews. We will also be working with multiple dimension tables to provide more context to the data we are working with. The final data model will follow a snowflake schema below.
 
-The first step we will take is to open an empty PowerBI file and load and prepare our [dataset](https://assets.datacamp.com/production/repositories/6064/datasets/e2f7bf7250e8c73f79deffeed749aa1d08cd2591/Case%20Study_%20HR%20Analytics%20in%20Power%20BI%20-%20Exercises%20and%20Datasets.pdf) . We will import all the CSV files and load them into PowerBI. Ensure that the data is clean. You may refer to this [article](https://dev.to/datawired22/data-analysis-flow-in-5-steps-using-powerbi-jm1) on the expectations of clean data. Ensure you add either Fact OR Dim at the beginning of each table name, depending on the type of table it is.
+The first step we will take is to open an empty PowerBI file and load and prepare our [dataset](https://assets.datacamp.com/production/repositories/6064/datasets/e2f7bf7250e8c73f79deffeed749aa1d08cd2591/Case%20Study_%20HR%20Analytics%20in%20Power%20BI%20-%20Exercises%20and%20Datasets.pdf) . We will import all the CSV files and load them into PowerBI. Ensure that the data is clean. Ensure you add either Fact OR Dim at the beginning of each table name, depending on the type of table it is.
 
 ## Building the data model: Date dimension and relating tables
 
